@@ -1,0 +1,4 @@
+# write directory you want to share
+# example
+# /home/lacoski/sharefolder 192.168.0.1/24(rw)
+# if directory not exist, script will create new directory

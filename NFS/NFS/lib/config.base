@@ -1,0 +1,5 @@
+# List packet
+packets=(nfs-utils libnfsidmap)
+main_config="/etc/exports"
+temp_awk_script="tempawk"
+path_tmp=/tmp/
