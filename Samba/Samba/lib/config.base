@@ -1,0 +1,2 @@
+packets=(samba samba-client samba-common)
+main_config="/etc/samba/smb.conf"
