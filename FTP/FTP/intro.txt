@@ -1,0 +1,2 @@
+# file main config nam trong tempConfig
+# config.base chua cau hinh user, cac goi tin cai dat
