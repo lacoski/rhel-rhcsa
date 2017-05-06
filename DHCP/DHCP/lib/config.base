@@ -1,4 +1,2 @@
-packets=(vsftpd)
-main_config="/etc/vsftpd/vsftpd.conf"
-user_lists=(user1 user2 lacoski)
-user_list_config="/etc/vsftpd/user_list"
+packets=(dhcp)
+main_config="/etc/dhcp/dhcpd.conf"
