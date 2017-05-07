@@ -1,0 +1,3 @@
+packets=(bind bind-utils)
+main_config="/etc/named.conf"
+path_record="/var/named/"

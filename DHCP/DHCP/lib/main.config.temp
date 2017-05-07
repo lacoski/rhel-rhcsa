@@ -5,9 +5,9 @@
 option domain-name "home.lab";
 # specify name server's hostname or IP address
 
-option domain-name-servers home.lab;
+#option domain-name-servers home.lab;
 # default lease time
-
+option domain-name-servers 192.168.2.5, 8.8.8.8;
 default-lease-time 600;
 # max lease time
 
@@ -18,10 +18,7 @@ authoritative;
 # specify network address and subnet mask
 
 subnet 192.168.2.0 netmask 255.255.255.0 {
-    #option routers                  192.168.1.254;
+    range dynamic-bootp 192.168.2.100 192.168.2.200;
     option subnet-mask              255.255.255.0;
     option domain-search            "home.lab";
-    #option domain-name-servers      192.168.1.1;
-    option time-offset              -18000;     # Eastern Standard Time
-    range   192.168.2.100   192.168.2.200;
 }
