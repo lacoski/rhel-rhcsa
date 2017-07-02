@@ -1,0 +1,11 @@
+$TTL        86400
+@           IN        SOA          server1.home.lab. root.(
+                      3;
+                      28800;
+                      7200;
+                      604800;
+                      86400;
+)
+
+@           IN        NS           server1.home.lab.
+5          IN        PTR          server1.home.lab.

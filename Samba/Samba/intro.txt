@@ -1,3 +1,5 @@
 # Cac thu muc share co dang
 # thu muc + group (chi duoc 1 group)
 # tu add user = tay
+# direc_share.base chua thu muc va nhom chia se
+# Cau truc: '/direc' 'nhom'

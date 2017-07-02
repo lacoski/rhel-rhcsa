@@ -1,0 +1,16 @@
+$TTL     86400
+@        IN         SOA         server1.home.lab. root. (
+                                3;
+                                28800;
+                                7200;
+                                604800;
+                                86400;
+)
+@ IN         NS          server1.home.lab.
+
+IN         A           192.168.2.5
+server1   IN    A   192.168.2.5
+
+nfs       IN          CNAME       server1
+samba     IN          CNAME       server1
+dns       IN          CNAME       server1
